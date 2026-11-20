@@ -1,0 +1,19 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local configuration and operating system files
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Generated datasets and saved models
+Data/processed/*
+!Data/processed/.gitkeep
+models/*
+!models/.gitkeep
