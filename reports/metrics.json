@@ -1,0 +1,30 @@
+[
+  {
+    "split":"train",
+    "model":"linear_regression",
+    "MAE":0.04129284,
+    "RMSE":0.0627193862,
+    "R2":0.3099255974
+  },
+  {
+    "split":"train",
+    "model":"mean_baseline",
+    "MAE":0.046234484,
+    "RMSE":0.0755011976,
+    "R2":0.0
+  },
+  {
+    "split":"test",
+    "model":"linear_regression",
+    "MAE":0.0387744197,
+    "RMSE":0.0547223662,
+    "R2":-0.2166422906
+  },
+  {
+    "split":"test",
+    "model":"mean_baseline",
+    "MAE":0.0375778138,
+    "RMSE":0.049621732,
+    "R2":-0.0004076636
+  }
+]
